@@ -58,12 +58,12 @@
     double delayInSeconds = 1.5;
     dispatch_time_t delayTime = dispatch_time(DISPATCH_TIME_NOW, delayInSeconds * NSEC_PER_SEC);
     dispatch_after(delayTime, dispatch_get_main_queue(), ^(void){
-        cycleScrollView2.imageUrlStringArray = imagesURLStrings;
+        cycleScrollView2.imageURLStringsArray = imagesURLStrings;
     });
     
     
     WCycleScrollView *cycleScrollView3 = [WCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, CGRectGetMaxY(cycleScrollView2.frame) + 20, w, h) delegate:self placeholdImage:[UIImage imageNamed:@"placeholder"]];
-    cycleScrollView3.imageUrlStringArray = imagesURLStrings;
+    cycleScrollView3.imageURLStringsArray = imagesURLStrings;
     cycleScrollView3.bannerTitleArray = titles;
     cycleScrollView3.currentPageDotImage = [UIImage imageNamed:@"pageControlCurrentDot"];
     cycleScrollView3.otherPageDotImager = [UIImage imageNamed:@"pageControlDot"];

@@ -42,7 +42,7 @@ typedef NS_ENUM(NSInteger, WCycleScrollViewPageControlAliment){
 /** 本地图片 */
 @property (nonatomic, strong) NSArray *localImageNameArray;
 /** 网络图片URL地址 */
-@property (nonatomic, strong) NSArray *imageUrlStringArray;
+@property (nonatomic, strong) NSArray *imageURLStringsArray;
 /** 图片需要显示的title */
 @property (nonatomic, strong) NSArray *bannerTitleArray;
 
@@ -60,7 +60,7 @@ typedef NS_ENUM(NSInteger, WCycleScrollViewPageControlAliment){
 /** 图片显示的模式 默认 UIViewContentModeScaleToFill */
 @property (nonatomic, assign) UIViewContentMode bannerImageViewContentMode;
 /** banner placeholdimage */
-@property (nonatomic, strong) UIImage *placeholdImage;
+@property (nonatomic, strong) UIImage *placeholderImage;
 
 // ===================== 自定义样式
 

@@ -30,7 +30,7 @@
 {
     WCycleScrollView *instance = [[WCycleScrollView alloc] initWithFrame:frame];
     instance.delegate = delegate;
-    instance.placeholdImage = placeholdImage;
+    instance.placeholderImage = placeholdImage;
     return instance;
 }
 
@@ -102,9 +102,9 @@
     self.flowLayout.itemSize = frame.size;
 }
 
-- (void)setPlaceholdImage:(UIImage *)placeholdImage
+- (void)setPlaceholderImage:(UIImage *)placeholdImage
 {
-    _placeholdImage = placeholdImage;
+    _placeholderImage = placeholdImage;
     if (!self.placeholdImageView) {
         UIImageView *imageView = [[UIImageView alloc] init];
         imageView.contentMode = UIViewContentModeScaleToFill;
@@ -246,9 +246,9 @@
     self.imagePathArray = [localImageNameArray copy];
 }
 
-- (void)setImageUrlStringArray:(NSArray *)imageUrlStringArray
+- (void)setImageURLStringsArray:(NSArray *)imageUrlStringArray
 {
-    _imageUrlStringArray = imageUrlStringArray;
+    _imageURLStringsArray = imageUrlStringArray;
     
     // NSString
     NSMutableArray *temp = [NSMutableArray array];
@@ -453,7 +453,7 @@
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
 {
     [collectionView deselectItemAtIndexPath:indexPath animated:NO];
-    if ([self.delegate respondsToSelector:@selector(collectionView:didSelectItemAtIndexPath:)]) {
+    if ([self.delegate respondsToSelector:@selector(cycleScrollView:didSelectItemAtIndex:)]) {
         [self.delegate cycleScrollView:self didSelectItemAtIndex:indexPath.item % self.imagePathArray.count];
     }
 }
