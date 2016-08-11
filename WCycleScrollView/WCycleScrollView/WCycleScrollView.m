@@ -43,10 +43,13 @@
     return self;
 }
 
-- (void)awakeFromNib
+- (instancetype)initWithCoder:(NSCoder *)aDecoder
 {
-    [self initialization];
-    [self configureSubViews];
+    if (self = [super initWithCoder:aDecoder]) {
+        [self initialization];
+        [self configureSubViews];
+    }
+    return self;
 }
 
 - (void)initialization
@@ -70,11 +73,16 @@
     _bannerTitleHeight = 30;
     _bannerTitleBackgroundColor = [UIColor colorWithWhite:0 alpha:.5];
     
-    self.backgroundColor = [UIColor lightGrayColor];
+//    self.backgroundColor = [UIColor lightGrayColor];
 }
 
 - (void)configureSubViews
 {
+    UIImageView *placeholdImageView = [[UIImageView alloc] init];
+    placeholdImageView.contentMode = UIViewContentModeScaleAspectFill;
+    [self addSubview:placeholdImageView];
+    self.placeholdImageView = placeholdImageView;
+    
     UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc] init];
     flowLayout.minimumLineSpacing = 0;
     flowLayout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
@@ -105,12 +113,6 @@
 - (void)setPlaceholderImage:(UIImage *)placeholdImage
 {
     _placeholderImage = placeholdImage;
-    if (!self.placeholdImageView) {
-        UIImageView *imageView = [[UIImageView alloc] init];
-        imageView.contentMode = UIViewContentModeScaleToFill;
-        [self insertSubview:imageView belowSubview:self.collectionView];
-        self.placeholdImageView = imageView;
-    }
     self.placeholdImageView.image = placeholdImage;
 }
 
