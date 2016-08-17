@@ -15,8 +15,6 @@
 		0FEB910E1C4A3CA6004E716D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FEB910C1C4A3CA6004E716D /* Main.storyboard */; };
 		0FEB91101C4A3CA6004E716D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FEB910F1C4A3CA6004E716D /* Assets.xcassets */; };
 		0FEB91131C4A3CA6004E716D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FEB91111C4A3CA6004E716D /* LaunchScreen.storyboard */; };
-		0FEB911E1C4A3CA6004E716D /* WCycleScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FEB911D1C4A3CA6004E716D /* WCycleScrollViewTests.m */; };
-		0FEB91291C4A3CA6004E716D /* WCycleScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FEB91281C4A3CA6004E716D /* WCycleScrollViewUITests.m */; };
 		0FEB915A1C4A3D3B004E716D /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FEB913A1C4A3D3B004E716D /* MKAnnotationView+WebCache.m */; };
 		0FEB915B1C4A3D3B004E716D /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FEB913C1C4A3D3B004E716D /* NSData+ImageContentType.m */; };
 		0FEB915C1C4A3D3B004E716D /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FEB913E1C4A3D3B004E716D /* SDImageCache.m */; };
@@ -42,27 +40,9 @@
 		0FEB917F1C4A41C3004E716D /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FEB91791C4A41C3004E716D /* TAAnimatedDotView.m */; };
 		0FEB91801C4A41C3004E716D /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FEB917B1C4A41C3004E716D /* TADotView.m */; };
 		0FEB91811C4A41C3004E716D /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FEB917D1C4A41C3004E716D /* TAPageControl.m */; };
-		0FEB91841C4A4218004E716D /* UIView+WCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FEB91831C4A4218004E716D /* UIView+WCategory.m */; };
 		0FEB91871C4A6F88004E716D /* WCycleViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FEB91861C4A6F88004E716D /* WCycleViewCell.m */; };
 		0FEB918A1C4A6FB7004E716D /* WCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FEB91891C4A6FB7004E716D /* WCycleScrollView.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		0FEB911A1C4A3CA6004E716D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0FEB90F81C4A3CA6004E716D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0FEB90FF1C4A3CA6004E716D;
-			remoteInfo = WCycleScrollView;
-		};
-		0FEB91251C4A3CA6004E716D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 0FEB90F81C4A3CA6004E716D /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0FEB90FF1C4A3CA6004E716D;
-			remoteInfo = WCycleScrollView;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0F0072961C4BACE4004E549A /* pageControlDot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pageControlDot@2x.png"; sourceTree = "<group>"; };
@@ -77,12 +57,6 @@
 		0FEB910F1C4A3CA6004E716D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FEB91121C4A3CA6004E716D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FEB91141C4A3CA6004E716D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0FEB91191C4A3CA6004E716D /* WCycleScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WCycleScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0FEB911D1C4A3CA6004E716D /* WCycleScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCycleScrollViewTests.m; sourceTree = "<group>"; };
-		0FEB911F1C4A3CA6004E716D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0FEB91241C4A3CA6004E716D /* WCycleScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WCycleScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0FEB91281C4A3CA6004E716D /* WCycleScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WCycleScrollViewUITests.m; sourceTree = "<group>"; };
-		0FEB912A1C4A3CA6004E716D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FEB91391C4A3D3B004E716D /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
 		0FEB913A1C4A3D3B004E716D /* MKAnnotationView+WebCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MKAnnotationView+WebCache.m"; sourceTree = "<group>"; };
 		0FEB913B1C4A3D3B004E716D /* NSData+ImageContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+ImageContentType.h"; sourceTree = "<group>"; };
@@ -129,8 +103,6 @@
 		0FEB917B1C4A41C3004E716D /* TADotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADotView.m; sourceTree = "<group>"; };
 		0FEB917C1C4A41C3004E716D /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
 		0FEB917D1C4A41C3004E716D /* TAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
-		0FEB91821C4A4218004E716D /* UIView+WCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WCategory.h"; sourceTree = "<group>"; };
-		0FEB91831C4A4218004E716D /* UIView+WCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WCategory.m"; sourceTree = "<group>"; };
 		0FEB91851C4A6F88004E716D /* WCycleViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCycleViewCell.h; sourceTree = "<group>"; };
 		0FEB91861C4A6F88004E716D /* WCycleViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WCycleViewCell.m; sourceTree = "<group>"; };
 		0FEB91881C4A6FB7004E716D /* WCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WCycleScrollView.h; sourceTree = "<group>"; };
@@ -145,20 +117,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0FEB91161C4A3CA6004E716D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0FEB91211C4A3CA6004E716D /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -166,8 +124,6 @@
 			isa = PBXGroup;
 			children = (
 				0FEB91021C4A3CA6004E716D /* WCycleScrollView */,
-				0FEB911C1C4A3CA6004E716D /* WCycleScrollViewTests */,
-				0FEB91271C4A3CA6004E716D /* WCycleScrollViewUITests */,
 				0FEB91011C4A3CA6004E716D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -176,8 +132,6 @@
 			isa = PBXGroup;
 			children = (
 				0FEB91001C4A3CA6004E716D /* WCycleScrollView.app */,
-				0FEB91191C4A3CA6004E716D /* WCycleScrollViewTests.xctest */,
-				0FEB91241C4A3CA6004E716D /* WCycleScrollViewUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -209,24 +163,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0FEB911C1C4A3CA6004E716D /* WCycleScrollViewTests */ = {
-			isa = PBXGroup;
-			children = (
-				0FEB911D1C4A3CA6004E716D /* WCycleScrollViewTests.m */,
-				0FEB911F1C4A3CA6004E716D /* Info.plist */,
-			);
-			path = WCycleScrollViewTests;
-			sourceTree = "<group>";
-		};
-		0FEB91271C4A3CA6004E716D /* WCycleScrollViewUITests */ = {
-			isa = PBXGroup;
-			children = (
-				0FEB91281C4A3CA6004E716D /* WCycleScrollViewUITests.m */,
-				0FEB912A1C4A3CA6004E716D /* Info.plist */,
-			);
-			path = WCycleScrollViewUITests;
-			sourceTree = "<group>";
-		};
 		0FEB91361C4A3D08004E716D /* Vender */ = {
 			isa = PBXGroup;
 			children = (
@@ -239,8 +175,6 @@
 			isa = PBXGroup;
 			children = (
 				0FEB91751C4A41C3004E716D /* PageControl */,
-				0FEB91821C4A4218004E716D /* UIView+WCategory.h */,
-				0FEB91831C4A4218004E716D /* UIView+WCategory.m */,
 				0FEB91851C4A6F88004E716D /* WCycleViewCell.h */,
 				0FEB91861C4A6F88004E716D /* WCycleViewCell.m */,
 				0FEB91881C4A6FB7004E716D /* WCycleScrollView.h */,
@@ -338,42 +272,6 @@
 			productReference = 0FEB91001C4A3CA6004E716D /* WCycleScrollView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0FEB91181C4A3CA6004E716D /* WCycleScrollViewTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0FEB91301C4A3CA6004E716D /* Build configuration list for PBXNativeTarget "WCycleScrollViewTests" */;
-			buildPhases = (
-				0FEB91151C4A3CA6004E716D /* Sources */,
-				0FEB91161C4A3CA6004E716D /* Frameworks */,
-				0FEB91171C4A3CA6004E716D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0FEB911B1C4A3CA6004E716D /* PBXTargetDependency */,
-			);
-			name = WCycleScrollViewTests;
-			productName = WCycleScrollViewTests;
-			productReference = 0FEB91191C4A3CA6004E716D /* WCycleScrollViewTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		0FEB91231C4A3CA6004E716D /* WCycleScrollViewUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 0FEB91331C4A3CA6004E716D /* Build configuration list for PBXNativeTarget "WCycleScrollViewUITests" */;
-			buildPhases = (
-				0FEB91201C4A3CA6004E716D /* Sources */,
-				0FEB91211C4A3CA6004E716D /* Frameworks */,
-				0FEB91221C4A3CA6004E716D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0FEB91261C4A3CA6004E716D /* PBXTargetDependency */,
-			);
-			name = WCycleScrollViewUITests;
-			productName = WCycleScrollViewUITests;
-			productReference = 0FEB91241C4A3CA6004E716D /* WCycleScrollViewUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -385,17 +283,6 @@
 				TargetAttributes = {
 					0FEB90FF1C4A3CA6004E716D = {
 						CreatedOnToolsVersion = 7.1.1;
-						DevelopmentTeam = 3AZ5DU686K;
-					};
-					0FEB91181C4A3CA6004E716D = {
-						CreatedOnToolsVersion = 7.1.1;
-						DevelopmentTeam = 3AZ5DU686K;
-						TestTargetID = 0FEB90FF1C4A3CA6004E716D;
-					};
-					0FEB91231C4A3CA6004E716D = {
-						CreatedOnToolsVersion = 7.1.1;
-						DevelopmentTeam = 3AZ5DU686K;
-						TestTargetID = 0FEB90FF1C4A3CA6004E716D;
 					};
 				};
 			};
@@ -413,8 +300,6 @@
 			projectRoot = "";
 			targets = (
 				0FEB90FF1C4A3CA6004E716D /* WCycleScrollView */,
-				0FEB91181C4A3CA6004E716D /* WCycleScrollViewTests */,
-				0FEB91231C4A3CA6004E716D /* WCycleScrollViewUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -437,20 +322,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0FEB91171C4A3CA6004E716D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0FEB91221C4A3CA6004E716D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -465,7 +336,6 @@
 				0FEB918A1C4A6FB7004E716D /* WCycleScrollView.m in Sources */,
 				0FEB915F1C4A3D3B004E716D /* SDWebImageDownloader.m in Sources */,
 				0FEB91661C4A3D3B004E716D /* UIImage+WebP.m in Sources */,
-				0FEB91841C4A4218004E716D /* UIView+WCategory.m in Sources */,
 				0FEB91691C4A3D3B004E716D /* UIView+WebCacheOperation.m in Sources */,
 				0FEB915C1C4A3D3B004E716D /* SDImageCache.m in Sources */,
 				0FEB917F1C4A41C3004E716D /* TAAnimatedDotView.m in Sources */,
@@ -487,36 +357,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0FEB91151C4A3CA6004E716D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0FEB911E1C4A3CA6004E716D /* WCycleScrollViewTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		0FEB91201C4A3CA6004E716D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0FEB91291C4A3CA6004E716D /* WCycleScrollViewUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		0FEB911B1C4A3CA6004E716D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0FEB90FF1C4A3CA6004E716D /* WCycleScrollView */;
-			targetProxy = 0FEB911A1C4A3CA6004E716D /* PBXContainerItemProxy */;
-		};
-		0FEB91261C4A3CA6004E716D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 0FEB90FF1C4A3CA6004E716D /* WCycleScrollView */;
-			targetProxy = 0FEB91251C4A3CA6004E716D /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		0FEB910C1C4A3CA6004E716D /* Main.storyboard */ = {
@@ -628,7 +469,7 @@
 				INFOPLIST_FILE = WCycleScrollView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.winter.WCycleScrollView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jhjr.WCycleScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -641,56 +482,8 @@
 				INFOPLIST_FILE = WCycleScrollView/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.winter.WCycleScrollView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jhjr.WCycleScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		0FEB91311C4A3CA6004E716D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = WCycleScrollViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.winter.WCycleScrollViewTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WCycleScrollView.app/WCycleScrollView";
-			};
-			name = Debug;
-		};
-		0FEB91321C4A3CA6004E716D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = WCycleScrollViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.winter.WCycleScrollViewTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WCycleScrollView.app/WCycleScrollView";
-			};
-			name = Release;
-		};
-		0FEB91341C4A3CA6004E716D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = WCycleScrollViewUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.winter.WCycleScrollViewUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = WCycleScrollView;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		0FEB91351C4A3CA6004E716D /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = WCycleScrollViewUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.winter.WCycleScrollViewUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = WCycleScrollView;
-				USES_XCTRUNNER = YES;
 			};
 			name = Release;
 		};
@@ -711,24 +504,6 @@
 			buildConfigurations = (
 				0FEB912E1C4A3CA6004E716D /* Debug */,
 				0FEB912F1C4A3CA6004E716D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0FEB91301C4A3CA6004E716D /* Build configuration list for PBXNativeTarget "WCycleScrollViewTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0FEB91311C4A3CA6004E716D /* Debug */,
-				0FEB91321C4A3CA6004E716D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0FEB91331C4A3CA6004E716D /* Build configuration list for PBXNativeTarget "WCycleScrollViewUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0FEB91341C4A3CA6004E716D /* Debug */,
-				0FEB91351C4A3CA6004E716D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

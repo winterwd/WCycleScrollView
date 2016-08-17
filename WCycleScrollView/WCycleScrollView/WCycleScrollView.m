@@ -8,8 +8,9 @@
 
 #import "WCycleScrollView.h"
 #import "WCycleViewCell.h"
-#import "UIImageView+WebCache.h"
 #import "TAPageControl.h" // 自定义pageControl
+
+#import "UIImageView+WebCache.h"
 
 @interface WCycleScrollView ()<UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
 

@@ -46,7 +46,7 @@
     CGFloat h = self.cycleScrollView1.bounds.size.height;
     
     self.cycleScrollView1.delegate = self;
-    self.cycleScrollView1.placeholdImage = [UIImage imageNamed:@"placeholder"];
+    self.cycleScrollView1.placeholderImage = [UIImage imageNamed:@"placeholder"];
     self.cycleScrollView1.localImageNameArray = imageNames;
     self.cycleScrollView1.pageControlStyle = WCycleScrollViewPageControlStyle_Animated;
     
