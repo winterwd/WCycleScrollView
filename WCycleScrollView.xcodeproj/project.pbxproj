@@ -123,7 +123,7 @@
 		0FEB90F71C4A3CA6004E716D = {
 			isa = PBXGroup;
 			children = (
-				0FEB91021C4A3CA6004E716D /* WCycleScrollView */,
+				0FEB91021C4A3CA6004E716D /* WCycleScrollViewExample */,
 				0FEB91011C4A3CA6004E716D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -136,7 +136,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0FEB91021C4A3CA6004E716D /* WCycleScrollView */ = {
+		0FEB91021C4A3CA6004E716D /* WCycleScrollViewExample */ = {
 			isa = PBXGroup;
 			children = (
 				0FEB91061C4A3CA6004E716D /* AppDelegate.h */,
@@ -148,6 +148,7 @@
 				0FEB916A1C4A3D60004E716D /* Resource */,
 				0FEB91031C4A3CA6004E716D /* Supporting Files */,
 			);
+			name = WCycleScrollViewExample;
 			path = WCycleScrollView;
 			sourceTree = "<group>";
 		};
